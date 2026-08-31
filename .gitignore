@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+*.whl
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+autoidea/config/config.yaml
+autoidea/config/history
+*.pem
+*.key
+*.p12
+*.pfx
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+
+# Runtime workspaces and logs
+workspace/
+workspace*/
+xxx*/
+conversation_history/
+run_prompts/
+memory_*/
+.autoidea_web/
+runs/
+*.log
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
+
+# Node/build caches if optional frontend tooling is used later
+node_modules/
+.vite/

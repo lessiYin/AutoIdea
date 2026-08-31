@@ -1,0 +1,17 @@
+[
+  {
+    "paper_id": "P1",
+    "title": "VideoAgent: Long-form Video Understanding with Agentic Planning",
+    "initial_attack": "Planner may overfit to benchmark-specific retrieval hops.",
+    "weakest_link": "Evidence selection is evaluated with limited adversarial queries.",
+    "summary": "Strong planning reference, but needs richer provenance diagnostics.",
+    "dimensions": [
+      {
+        "dimension": "Methodology",
+        "strength": "MODERATE",
+        "evidence": "Agentic decomposition is reported on multiple video QA tasks.",
+        "concern": "Planner failures are under-characterized."
+      }
+    ]
+  }
+]

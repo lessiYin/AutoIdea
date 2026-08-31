@@ -1,0 +1,22 @@
+[
+  {
+    "paper_id": "P1",
+    "title": "VideoAgent: Long-form Video Understanding with Agentic Planning",
+    "year": 2025,
+    "source": "sample",
+    "venue": "Synthetic example",
+    "url": "https://example.org/videoagent",
+    "authors": ["A. Researcher", "B. Builder"],
+    "relevance": "Planning baseline for long-form video evidence retrieval."
+  },
+  {
+    "paper_id": "P2",
+    "title": "EvidenceMap: Citation-grounded Research Synthesis",
+    "year": 2024,
+    "source": "semantic_scholar",
+    "venue": "ACL",
+    "url": "https://example.org/evidencemap",
+    "authors": ["C. Reviewer"],
+    "relevance": "Useful model for source-grounded synthesis tables."
+  }
+]

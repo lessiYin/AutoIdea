@@ -1,0 +1,5 @@
+include README.md README_CN.md LICENSE CONTRIBUTING.md SECURITY.md .env.example uv.lock
+recursive-include docs *.md
+recursive-include examples *.md *.json
+recursive-include tests *.py *.md *.json
+recursive-include autoidea/web/static *.html *.css *.js *.svg

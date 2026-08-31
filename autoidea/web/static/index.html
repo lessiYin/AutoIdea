@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en" data-language="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f7f8f5" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0d1513" />
+    <meta name="description" content="AutoIdea Research Observatory — run, supervise, and verify an evidence-grounded research pipeline." />
+    <title>AutoIdea Research Observatory</title>
+    <link rel="icon" href="/static/autoidea-mark.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#mainContent">Skip to research workspace</a>
+
+    <div class="app-shell">
+      <header class="command-bar" aria-label="Application controls">
+        <div class="command-brand">
+          <button id="navToggle" class="icon-control nav-toggle" type="button" aria-label="Open navigation" aria-controls="primaryNav" aria-expanded="false">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" /></svg>
+          </button>
+          <button class="brand-lockup" type="button" data-view-target="studio" aria-label="AutoIdea overview">
+            <img class="brand-mark" src="/static/autoidea-mark.svg" alt="" width="38" height="38" />
+            <span><strong>AutoIdea</strong><small data-i18n="observatory">Research Observatory</small></span>
+          </button>
+        </div>
+
+        <div class="run-context" aria-label="Selected research run">
+          <span class="context-label" data-i18n="runContext">Research run</span>
+          <label class="run-selector-wrap" for="runSelector">
+            <span class="visually-hidden" data-i18n="selectRun">Select research run</span>
+            <select id="runSelector" name="run" aria-label="Select research run"><option value="" data-i18n="rootWorkspace">Workspace overview</option></select>
+            <svg viewBox="0 0 16 16" aria-hidden="true"><path d="m4 6 4 4 4-4" /></svg>
+          </label>
+          <span id="runStatusPill" class="status-pill neutral">No run selected</span>
+        </div>
+
+        <div class="command-actions">
+          <button id="newRunButton" class="button button-primary compact" type="button">
+            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 4v12M4 10h12" /></svg><span data-i18n="newRun">New research</span>
+          </button>
+          <button id="languageToggle" class="button button-quiet compact" type="button" title="Switch language" aria-label="Switch language">中文</button>
+          <button id="refreshButton" class="icon-control" type="button" title="Refresh research data" aria-label="Refresh research data">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11a8 8 0 1 0-2.34 5.66" /><path d="M20 5v6h-6" /></svg>
+          </button>
+        </div>
+      </header>
+
+      <div class="workspace-frame">
+        <div id="navScrim" class="nav-scrim" hidden></div>
+        <aside id="primaryNav" class="primary-nav" aria-label="Research workspace navigation">
+          <nav>
+            <div class="nav-group">
+              <p class="nav-group-label" data-i18n="observe">Observe</p>
+              <a class="nav-button active" href="?view=studio" data-view="studio" aria-current="page">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18V9m5 9V5m5 13v-7m5 7V3" /></svg><span data-i18n="navOverview">Overview</span>
+              </a>
+              <a class="nav-button" href="?view=live" data-view="live">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h3l2-5 4 10 2-5h5" /></svg><span data-i18n="navLive">Live run</span><span id="liveRunBadge" class="nav-badge" hidden>0</span>
+              </a>
+              <a class="nav-button" href="?view=results" data-view="results">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l3 3v15H6z" /><path d="M15 3v4h4M9 12h6M9 16h6" /></svg><span data-i18n="navReport">Final report</span>
+              </a>
+            </div>
+
+            <div class="nav-group">
+              <p class="nav-group-label" data-i18n="research">Research</p>
+              <a class="nav-button" href="?view=map" data-view="map">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="6" cy="7" r="2" /><circle cx="18" cy="6" r="2" /><circle cx="13" cy="18" r="2" /><path d="m8 7 8-1M7 9l5 7m5-8-3 8" /></svg><span data-i18n="navMap">Literature map</span>
+              </a>
+              <a class="nav-button" href="?view=papers" data-view="papers">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5.5A3.5 3.5 0 0 1 8.5 2H20v17H8.5A3.5 3.5 0 0 0 5 22z" /><path d="M5 5.5V22M9 6h7M9 10h7" /></svg><span data-i18n="navPapers">Papers</span>
+              </a>
+              <a class="nav-button" href="?view=evidence" data-view="evidence">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5 9 17l11-11" /><path d="M4 5h7M4 9h4M13 18h7M16 14h4" /></svg><span data-i18n="navEvidence">Evidence</span>
+              </a>
+              <a class="nav-button" href="?view=ideas" data-view="ideas">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 22h4" /><path d="M8.5 15.5A7 7 0 1 1 15.5 15.5c-.8.6-1.3 1.4-1.5 2.5h-4c-.2-1.1-.7-1.9-1.5-2.5Z" /></svg><span data-i18n="navIdeas">Ideas</span>
+              </a>
+            </div>
+
+            <div class="nav-group">
+              <p class="nav-group-label" data-i18n="inspect">Inspect</p>
+              <a class="nav-button" href="?view=pipeline" data-view="pipeline">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4v16M12 4v16M19 4v16" /><circle cx="5" cy="8" r="2" /><circle cx="12" cy="15" r="2" /><circle cx="19" cy="10" r="2" /></svg><span data-i18n="navPipeline">Pipeline</span>
+              </a>
+              <a class="nav-button" href="?view=artifacts" data-view="artifacts">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h7l2 2h9v11H3z" /><path d="M3 7V4h7l2 3" /></svg><span data-i18n="navArtifacts">Artifacts</span>
+              </a>
+              <a class="nav-button" href="?view=settings" data-view="settings">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3" /><path d="M19.4 15a1.7 1.7 0 0 0 .34 1.88l.06.06-2.83 2.83-.06-.06A1.7 1.7 0 0 0 15 19.4a1.7 1.7 0 0 0-1 .6 1.7 1.7 0 0 0-.4 1.1V21H9.6v-.1A1.7 1.7 0 0 0 8.5 19.4a1.7 1.7 0 0 0-1.88.34l-.06.06-2.83-2.83.06-.06A1.7 1.7 0 0 0 4.6 15a1.7 1.7 0 0 0-.6-1 1.7 1.7 0 0 0-1.1-.4H3V9.6h.1A1.7 1.7 0 0 0 4.6 8.5a1.7 1.7 0 0 0-.34-1.88l-.06-.06 2.83-2.83.06.06A1.7 1.7 0 0 0 9 4.6a1.7 1.7 0 0 0 1-.6 1.7 1.7 0 0 0 .4-1.1V3h4v.1A1.7 1.7 0 0 0 15.5 4.6a1.7 1.7 0 0 0 1.88-.34l.06-.06 2.83 2.83-.06.06A1.7 1.7 0 0 0 19.4 9c.38.25.7.6.6 1v4c.1.4-.22.75-.6 1Z" /></svg><span data-i18n="navSettings">Settings</span>
+              </a>
+            </div>
+          </nav>
+
+          <footer class="nav-footer">
+            <span class="system-indicator"><i aria-hidden="true"></i><span data-i18n="localOnly">Local workspace</span></span>
+            <p id="workspaceName" title="">Loading workspace</p>
+          </footer>
+        </aside>
+
+        <main id="mainContent" class="main-canvas" tabindex="-1">
+          <header id="pageHeader" class="page-header">
+            <div><p id="pageEyebrow" class="eyebrow">Research observatory</p><h1 id="pageTitle">Observe the full research trace.</h1><p id="pageDescription" class="page-description">Start, supervise, and verify every decision from question to final report.</p></div>
+            <div id="pageActions" class="page-actions"></div>
+          </header>
+
+          <section id="contextTools" class="context-tools" aria-label="View filters" hidden>
+            <label class="search-control" for="searchInput"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" /><path d="m13 13 4 4" /></svg><span class="visually-hidden" data-i18n="search">Search</span><input id="searchInput" name="query" type="search" placeholder="Search this view…" autocomplete="off" /></label>
+            <label id="confidenceControl" class="select-control" for="confidenceFilter"><span data-i18n="confidence">Confidence</span><select id="confidenceFilter" name="confidence"><option value="" data-i18n="all">All</option><option value="HIGH" data-i18n="high">High</option><option value="MEDIUM" data-i18n="medium">Medium</option><option value="LOW" data-i18n="low">Low</option></select></label>
+            <label id="nodeControl" class="select-control" for="nodeFilter"><span data-i18n="nodeType">Node type</span><select id="nodeFilter" name="node"><option value="" data-i18n="all">All</option><option value="paper" data-i18n="papers">Papers</option><option value="claim" data-i18n="claims">Claims</option><option value="idea" data-i18n="ideas">Ideas</option><option value="gap" data-i18n="gaps">Gaps</option><option value="artifact" data-i18n="artifacts">Artifacts</option></select></label>
+          </section>
+
+          <div id="status" class="global-status" role="status" aria-live="polite" aria-atomic="true">Loading AutoIdea workspace…</div>
+          <section id="viewRoot" class="view-root" aria-busy="true"></section>
+        </main>
+      </div>
+    </div>
+
+    <dialog id="artifactDialog" class="artifact-dialog" aria-labelledby="artifactTitle">
+      <div class="dialog-shell">
+        <header class="dialog-header">
+          <div class="dialog-heading"><p class="eyebrow" data-i18n="artifact">Artifact</p><h2 id="artifactTitle">Artifact</h2><p id="artifactPath" class="meta"></p></div>
+          <button id="closeArtifactButton" class="button button-quiet compact" type="button"><span data-i18n="close">Close</span><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m5 5 10 10M15 5 5 15" /></svg></button>
+        </header>
+        <section id="artifactBody" class="artifact-body"></section>
+      </div>
+    </dialog>
+
+    <div id="toastRegion" class="toast-region" role="status" aria-live="polite" aria-atomic="true"></div>
+    <script type="module" src="/static/app.js"></script>
+  </body>
+</html>

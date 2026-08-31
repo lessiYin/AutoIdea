@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "generated_from": "evidence_db.json",
+  "gaps": [
+    {
+      "gap_id": "G1",
+      "title": "Auditable multi-hop evidence selection",
+      "description": "Long-video planners do not consistently expose an auditable chain from retrieved frames to final claims.",
+      "gap_type": "methodology_gap",
+      "demand": 5,
+      "coverage": 2,
+      "gap_score": 3,
+      "evidence_links": [
+        {
+          "citation_id": "C1",
+          "relationship": "partial_coverage",
+          "rationale": "C1 shows that multi-hop planning exists, while provenance remains outside the reported mechanism."
+        },
+        {
+          "citation_id": "C2",
+          "relationship": "supports",
+          "rationale": "C2 establishes auditability as a concrete capability that current planners should expose."
+        }
+      ],
+      "why_it_matters": "A verifiable answer requires both correct retrieval and a traceable evidence path.",
+      "potential_direction": "Jointly score retrieval utility and provenance completeness.",
+      "supporting_papers": [
+        "P1",
+        "P2"
+      ]
+    },
+    {
+      "gap_id": "G2",
+      "title": "Adversarial evidence stress testing",
+      "description": "Evidence selection methods lack systematic evaluation under misleading or incomplete retrieval paths.",
+      "gap_type": "evaluation_gap",
+      "demand": 4,
+      "coverage": 2,
+      "gap_score": 2,
+      "evidence_links": [
+        {
+          "citation_id": "C1",
+          "relationship": "supports",
+          "rationale": "C1 motivates testing whether multi-hop planning remains reliable when intermediate evidence is misleading."
+        },
+        {
+          "citation_id": "C2",
+          "relationship": "partial_coverage",
+          "rationale": "C2 provides an auditability mechanism but does not constitute adversarial stress testing by itself."
+        }
+      ],
+      "why_it_matters": "Unstressed retrieval chains can conceal brittle reasoning behavior.",
+      "potential_direction": "Build adversarial query and evidence-corruption protocols.",
+      "supporting_papers": [
+        "P1",
+        "P2"
+      ]
+    },
+    {
+      "gap_id": "G3",
+      "title": "Provenance-aware stopping criteria",
+      "description": "Existing workflows do not clearly determine when accumulated evidence is sufficient to stop retrieval.",
+      "gap_type": "assumption_gap",
+      "demand": 4,
+      "coverage": 1,
+      "gap_score": 3,
+      "evidence_links": [
+        {
+          "citation_id": "C1",
+          "relationship": "partial_coverage",
+          "rationale": "C1 supplies iterative retrieval behavior without an explicit provenance-completeness stopping rule."
+        },
+        {
+          "citation_id": "C2",
+          "relationship": "supports",
+          "rationale": "C2 makes evidence auditability measurable and therefore exposes the missing stopping criterion."
+        }
+      ],
+      "why_it_matters": "Stopping too early misses support, while stopping too late wastes the inference budget.",
+      "potential_direction": "Stop when claim coverage and source diversity cross declared thresholds.",
+      "supporting_papers": [
+        "P1",
+        "P2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1120" viewBox="0 0 1200 1120" role="img" aria-labelledby="title desc">
+<title id="title">The fourteen-stage research workflow</title>
+<desc id="desc">Fourteen ordered AutoIdea stages, with checkpoints at knowledge synthesis, idea generation, and adversarial debate.</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="14" markerHeight="14" markerUnits="userSpaceOnUse" orient="auto"><path d="M1 1 11 6 1 11Z" fill="#0d665f"/></marker>
+<filter id="shadow" x="-20%" y="-20%" width="140%" height="155%"><feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#0b1513" flood-opacity="0.08"/></filter>
+</defs>
+<rect width="1200" height="1120" fill="#f7f8f5"/>
+<path d="M0 0H1200V8H0Z" fill="#0d665f"/>
+<text x="60" y="70" text-anchor="start" font-family="Iowan Old Style, Palatino Linotype, 'Noto Serif CJK SC', Georgia, serif" font-size="42" font-weight="670" fill="#0b1513">The fourteen-stage research workflow</text>
+<text x="60" y="112" text-anchor="start" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Noto Sans CJK SC', sans-serif" font-size="22" font-weight="520" fill="#53635d">Two ordered lanes; amber cards are recorded research checkpoints</text>
+<text x="60" y="151" text-anchor="start" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="22" font-weight="760" fill="#0d665f" letter-spacing="0.7">EVIDENCE CONSTRUCTION · 01–06</text>
+<text x="630" y="151" text-anchor="start" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="22" font-weight="760" fill="#244da9" letter-spacing="0.7">DIRECTION DEVELOPMENT · 07–12</text>
+<path d="M315.0 282V296" fill="none" stroke="#0d665f" stroke-width="4" marker-end="url(#arrow)"/>
+<g filter="url(#shadow)"><rect x="60" y="184" width="510" height="94" rx="18" fill="#ffffff" stroke="#cbd5cf" stroke-width="2"/></g>
+<text x="84" y="240" text-anchor="start" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="22" font-weight="760" fill="#0d665f">01</text>
+<text x="156" y="240" text-anchor="start" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Noto Sans CJK SC', sans-serif" font-size="25" font-weight="650" fill="#0b1513">Requirement intake</text>
+<path d="M315.0 404V418" fill="none" stroke="#0d665f" stroke-width="4" marker-end="url(#arrow)"/>
+<g filter="url(#shadow)"><rect x="60" y="306" width="510" height="94" rx="18" fill="#ffffff" stroke="#cbd5cf" stroke-width="2"/></g>
+<text x="84" y="362" text-anchor="start" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="22" font-weight="760" fill="#0d665f">02</text>
+<text x="156" y="362" text-anchor="start" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Noto Sans CJK SC', sans-serif" font-size="25" font-weight="650" fill="#0b1513">Task formalization</text>
+<path d="M315.0 526V540" fill="none" stroke="#0d665f" stroke-width="4" marker-end="url(#arrow)"/>
+<g filter="url(#shadow)"><rect x="60" y="428" width="510" height="94" rx="18" fill="#ffffff" stroke="#cbd5cf" stroke-width="2"/></g>
+<text x="84" y="484" text-anchor="start" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="22" font-weight="760" fill="#0d665f">03</text>
+<text x="156" y="484" text-anchor="start" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Noto Sans CJK SC', sans-serif" font-size="25" font-weight="650" fill="#0b1513">Literature survey</text>
+<path d="M315.0 648V662" fill="none" stroke="#0d665f" stroke-width="4" marker-end="url(#arrow)"/>
+<g filter="url(#shadow)"><rect x="60" y="550" width="510" height="94" rx="18" fill="#ffffff" stroke="#cbd5cf" stroke-width="2"/></g>
+<text x="84" y="606" text-anchor="start" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="22" font-weight="760" fill="#0d665f">03.5</text>
+<text x="156" y="606" text-anchor="start" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Noto Sans CJK SC', sans-serif" font-size="25" font-weight="650" fill="#0b1513">Paper deep reading</text>
+<path d="M315.0 770V784" fill="none" stroke="#0d665f" stroke-width="4" marker-end="url(#arrow)"/>
+<g filter="url(#shadow)"><rect x="60" y="672" width="510" height="94" rx="18" fill="#ffffff" stroke="#cbd5cf" stroke-width="2"/></g>
+<text x="84" y="728" text-anchor="start" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="22" font-weight="760" fill="#0d665f">04</text>
+<text x="156" y="728" text-anchor="start" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Noto Sans CJK SC', sans-serif" font-size="25" font-weight="650" fill="#0b1513">Position analysis</text>
+<path d="M315.0 892V906" fill="none" stroke="#0d665f" stroke-width="4" marker-end="url(#arrow)"/>
+<g filter="url(#shadow)"><rect x="60" y="794" width="510" height="94" rx="18" fill="#ffffff" stroke="#cbd5cf" stroke-width="2"/></g>
+<text x="84" y="850" text-anchor="start" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="22" font-weight="760" fill="#0d665f">05</text>
+<text x="156" y="850" text-anchor="start" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Noto Sans CJK SC', sans-serif" font-size="25" font-weight="650" fill="#0b1513">Hook-driven expansion</text>
+<g filter="url(#shadow)"><rect x="60" y="916" width="510" height="94" rx="18" fill="#ffffff" stroke="#cbd5cf" stroke-width="2"/></g>
+<text x="84" y="972" text-anchor="start" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="22" font-weight="760" fill="#0d665f">06</text>
+<text x="156" y="972" text-anchor="start" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Noto Sans CJK SC', sans-serif" font-size="25" font-weight="650" fill="#0b1513">Evidence binding</text>
+<path d="M885.0 282V296" fill="none" stroke="#0d665f" stroke-width="4" marker-end="url(#arrow)"/>
+<g filter="url(#shadow)"><rect x="630" y="184" width="510" height="94" rx="18" fill="#f7ecdc" stroke="#92530a" stroke-width="3"/></g>
+<text x="654" y="240" text-anchor="start" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="22" font-weight="760" fill="#0d665f">07</text>
+<text x="726" y="240" text-anchor="start" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Noto Sans CJK SC', sans-serif" font-size="25" font-weight="650" fill="#0b1513">Knowledge synthesis</text>
+<rect x="1105" y="223.0" width="16" height="16" rx="4" transform="rotate(45 1113.0 231.0)" fill="#92530a"/>
+<path d="M885.0 404V418" fill="none" stroke="#0d665f" stroke-width="4" marker-end="url(#arrow)"/>
+<g filter="url(#shadow)"><rect x="630" y="306" width="510" height="94" rx="18" fill="#ffffff" stroke="#cbd5cf" stroke-width="2"/></g>
+<text x="654" y="362" text-anchor="start" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="22" font-weight="760" fill="#0d665f">08</text>
+<text x="726" y="362" text-anchor="start" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Noto Sans CJK SC', sans-serif" font-size="25" font-weight="650" fill="#0b1513">Design-space definition</text>
+<path d="M885.0 526V540" fill="none" stroke="#0d665f" stroke-width="4" marker-end="url(#arrow)"/>
+<g filter="url(#shadow)"><rect x="630" y="428" width="510" height="94" rx="18" fill="#f7ecdc" stroke="#92530a" stroke-width="3"/></g>
+<text x="654" y="484" text-anchor="start" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="22" font-weight="760" fill="#0d665f">09</text>
+<text x="726" y="484" text-anchor="start" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Noto Sans CJK SC', sans-serif" font-size="25" font-weight="650" fill="#0b1513">Idea generation</text>
+<rect x="1105" y="467.0" width="16" height="16" rx="4" transform="rotate(45 1113.0 475.0)" fill="#92530a"/>
+<path d="M885.0 648V662" fill="none" stroke="#0d665f" stroke-width="4" marker-end="url(#arrow)"/>
+<g filter="url(#shadow)"><rect x="630" y="550" width="510" height="94" rx="18" fill="#ffffff" stroke="#cbd5cf" stroke-width="2"/></g>
+<text x="654" y="606" text-anchor="start" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="22" font-weight="760" fill="#0d665f">09.5</text>
+<text x="726" y="606" text-anchor="start" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Noto Sans CJK SC', sans-serif" font-size="25" font-weight="650" fill="#0b1513">Elo tournament</text>
+<path d="M885.0 770V784" fill="none" stroke="#0d665f" stroke-width="4" marker-end="url(#arrow)"/>
+<g filter="url(#shadow)"><rect x="630" y="672" width="510" height="94" rx="18" fill="#f7ecdc" stroke="#92530a" stroke-width="3"/></g>
+<text x="654" y="728" text-anchor="start" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="22" font-weight="760" fill="#0d665f">10</text>
+<text x="726" y="728" text-anchor="start" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Noto Sans CJK SC', sans-serif" font-size="25" font-weight="650" fill="#0b1513">Adversarial debate</text>
+<rect x="1105" y="711.0" width="16" height="16" rx="4" transform="rotate(45 1113.0 719.0)" fill="#92530a"/>
+<path d="M885.0 892V906" fill="none" stroke="#0d665f" stroke-width="4" marker-end="url(#arrow)"/>
+<g filter="url(#shadow)"><rect x="630" y="794" width="510" height="94" rx="18" fill="#ffffff" stroke="#cbd5cf" stroke-width="2"/></g>
+<text x="654" y="850" text-anchor="start" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="22" font-weight="760" fill="#0d665f">11</text>
+<text x="726" y="850" text-anchor="start" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Noto Sans CJK SC', sans-serif" font-size="25" font-weight="650" fill="#0b1513">Feasibility assessment</text>
+<g filter="url(#shadow)"><rect x="630" y="916" width="510" height="94" rx="18" fill="#ffffff" stroke="#cbd5cf" stroke-width="2"/></g>
+<text x="654" y="972" text-anchor="start" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="22" font-weight="760" fill="#0d665f">12</text>
+<text x="726" y="972" text-anchor="start" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Noto Sans CJK SC', sans-serif" font-size="25" font-weight="650" fill="#0b1513">Final report</text>
+<path d="M570 963.0 H590 V231.0 H620" fill="none" stroke="#0d665f" stroke-width="4" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="600.0" y="1062" text-anchor="middle" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="22" font-weight="760" fill="#0d665f">06 → 07</text>
+<text x="60" y="1095" text-anchor="start" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Noto Sans CJK SC', sans-serif" font-size="22" font-weight="580" fill="#53635d">Stages 7, 9, and 10 record resolved checkpoints; automatic mode continues without waiting.</text>
+</svg>

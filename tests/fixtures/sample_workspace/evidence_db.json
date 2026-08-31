@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "source": "sample",
+    "updated_at": "2026-06-30T00:00:00Z"
+  },
+  "summary": {
+    "total_claims": 2,
+    "high_confidence": 1,
+    "medium_confidence": 1,
+    "low_confidence": 0
+  },
+  "claims": [
+    {
+      "citation_id": "C1",
+      "claim": "Agentic planning improves long-form video evidence retrieval when queries require multiple hops.",
+      "claim_text": "Agentic planning improves long-form video evidence retrieval when queries require multiple hops.",
+      "paper_id": "P1",
+      "source_paper_id": "P1",
+      "source_title": "VideoAgent: Long-form Video Understanding with Agentic Planning",
+      "source_url": "https://example.org/videoagent",
+      "confidence": "HIGH",
+      "evidence_type": "experiment",
+      "section": "Results",
+      "tags": ["planning", "retrieval"]
+    },
+    {
+      "citation_id": "C2",
+      "claim": "Evidence tables make literature synthesis easier to audit.",
+      "claim_text": "Evidence tables make literature synthesis easier to audit.",
+      "paper_id": "P2",
+      "source_paper_id": "P2",
+      "source_title": "EvidenceMap: Citation-grounded Research Synthesis",
+      "source_url": "https://example.org/evidencemap",
+      "confidence": "MEDIUM",
+      "evidence_type": "system",
+      "section": "Interface",
+      "tags": ["evidence", "traceability"]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "updated_at": "2026-06-30T00:00:00Z",
+  "workspace": "sample_workspace",
+  "last_completed_stage": "stage_9",
+  "next_stage": "stage_9.5",
+  "stages": {
+    "stage_1": {
+      "name": "Requirement Intake",
+      "status": "complete",
+      "required_artifacts": ["research_brief.md"],
+      "missing_artifacts": [],
+      "has_reflection": false
+    },
+    "stage_9.5": {
+      "name": "Elo Tournament",
+      "status": "pending",
+      "required_artifacts": ["tournament_rankings.json"],
+      "missing_artifacts": ["tournament_rankings.json"],
+      "has_reflection": false
+    }
+  }
+}

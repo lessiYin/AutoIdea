@@ -1,0 +1,21 @@
+[
+  {
+    "title": "Attention Is All You Need",
+    "authors": ["Ashish Vaswani", "Noam Shazeer", "Niki Parmar", "Jakob Uszkoreit", "Llion Jones", "Aidan N. Gomez", "Lukasz Kaiser", "Illia Polosukhin"],
+    "year": 2017,
+    "venue": "NeurIPS",
+    "url": "https://arxiv.org/abs/1706.03762",
+    "arxiv_id": "1706.03762",
+    "abstract": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms.",
+    "reason": "Foundational work on Transformer architecture — must understand its design choices and limitations for any research on attention mechanisms."
+  },
+  {
+    "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    "authors": ["Jacob Devlin", "Ming-Wei Chang", "Kenton Lee", "Kristina Toutanova"],
+    "year": 2019,
+    "venue": "NAACL",
+    "url": "https://arxiv.org/abs/1810.04805",
+    "arxiv_id": "1810.04805",
+    "reason": "Key reference for pre-training methodology — our approach builds on BERT's masked language modeling paradigm."
+  }
+]

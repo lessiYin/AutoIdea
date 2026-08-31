@@ -1,0 +1,20 @@
+{
+  "generated_count": 2,
+  "kept_top_5": ["I1"],
+  "ideas": [
+    {
+      "idea_id": "I1",
+      "title": "Citation-Aware Retrieval Planner",
+      "one_liner": "Train a planner to optimize answer quality and provenance completeness together.",
+      "description": "A retrieval planner that scores candidate evidence chains by answer support and source diversity.",
+      "target_gaps": ["G1"],
+      "supporting_evidence": ["C1", "C2"],
+      "self_assessment": {
+        "novelty": 4,
+        "feasibility": 4,
+        "impact": 5
+      },
+      "composite_score": 4.4
+    }
+  ]
+}

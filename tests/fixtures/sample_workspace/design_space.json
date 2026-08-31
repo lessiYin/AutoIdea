@@ -1,0 +1,18 @@
+{
+  "axes": [
+    {
+      "name": "Evidence Selection",
+      "description": "How the system selects support for claims.",
+      "values": ["single-hop", "multi-hop", "citation-aware"],
+      "explored": ["single-hop", "multi-hop"],
+      "unexplored": ["citation-aware"]
+    }
+  ],
+  "promising_combinations": [
+    {
+      "combination": "citation-aware planner + evidence diversity scoring",
+      "rationale": "Connects planning strength to auditable source chains.",
+      "supporting_gaps": ["G1"]
+    }
+  ]
+}
